@@ -19,6 +19,11 @@ Sposób użycia:
 1) Otworzyć main.ipynb.
 2) Załadować biblioteki i notebooki.
 3) W ustawieniach problemów:
+sp.1 (widget)
+- Koniecznie ustawić wierzchołki obszaru
+- Opcjonalnie dodać przeszkody i zmienić pozostałe ustawienia
+- Poniżej widgetu uruchomić komórkę przydzielającą wartości z widgetu do zmiennych algorytmu
+sp.2
 - wykomentować interesujące ustawienie obszaru przepływu lub napisać własne wg opisu funkcji meshgenerator pliku mesh.ipynb,
 - zapisać warunki brzegowe przez podanie tablicy dirichlet_fun ( warunek Dirichleta dany funkcją ) i dirichlet_zero ( warunek Dirichleta == 0 ),
 - wybrać funkcję przepływu przypisując liczbę z {1,2,3} do zmiennej dirichlet_function_option z pliku fem.ipynb,
